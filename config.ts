@@ -7,15 +7,15 @@ export const SITE_CONFIG = {
 
 export const CONFIG_VIDEOS = {
   // Substitua os IDs após 'embed/' pelos IDs reais dos seus vídeos do YouTube
-  CLIENT_PAGE: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-  BARBER_PAGE: "https://www.youtube.com/embed/dQw4w9WgXcQ"
+  CLIENT_PAGE: "https://www.youtube.com/watch?v=fdFWSbTOfAQ",
+  BARBER_PAGE: "https://www.youtube.com/watch?v=ReDSINTsjmU"
 };
 
 /**
  * CONFIGURAÇÃO DE CONTATO CENTRALIZADA
  * Altere apenas o valor da constante PHONE para atualizar o sistema inteiro.
  */
-const PHONE = "5517996490503"; 
+const PHONE = "5517996490503";
 
 export const CONTACT_INFO = {
   PHONE_NUMBER: PHONE,
