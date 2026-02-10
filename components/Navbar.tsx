@@ -27,7 +27,7 @@ const Navbar: React.FC<NavbarProps> = ({ onDemoClick, onHomeClick, currentView }
         
         <div className="hidden lg:flex items-center gap-8 text-[10px] font-black uppercase tracking-[0.3em] text-gray-500">
           <button onClick={onHomeClick} className={`transition-colors ${currentView === 'home' ? 'text-amber-500' : 'hover:text-amber-500'}`}>Início</button>
-          <button onClick={onDemoClick} className={`transition-colors ${currentView === 'demo' ? 'text-amber-500' : 'hover:text-amber-500'}`}>Demo</button>
+          <button onClick={onDemoClick} className={`transition-colors ${currentView === 'demo' ? 'text-amber-500' : 'hover:text-amber-500'}`}>Demonstração</button>
         </div>
 
         <a 
