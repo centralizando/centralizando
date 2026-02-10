@@ -1,5 +1,5 @@
 
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { MessageSquare, Star, ArrowRight } from 'lucide-react';
 import { CONTACT_INFO } from '../config';
 
@@ -23,7 +23,7 @@ const Hero: React.FC<HeroProps> = ({ onDemoClick }) => {
           </div>
           
           <h1 className="text-6xl md:text-[11rem] font-title mb-4 leading-[0.85] tracking-tight text-white italic uppercase">
-            CENTRALIZANDO <span className="text-amber-500">O SUCESSO</span>
+            BARBEARIA <span className="text-amber-500">DE SUCESSO</span>
           </h1>
           
           <p className="text-lg md:text-3xl text-gray-400 mb-10 md:mb-14 max-w-2xl mx-auto leading-tight font-light italic">

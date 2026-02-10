@@ -14,12 +14,12 @@ export const CONFIG_VIDEOS = {
  * CONFIGURAÇÃO DE CONTATO CENTRALIZADA
  * Altere apenas o valor da constante PHONE para atualizar o sistema inteiro.
  */
-const PHONE = "5516994308140";
+const PHONE = "5517996490503";
 
 export const CONTACT_INFO = {
   PHONE_NUMBER: PHONE,
   // Representação amigável para exibição visual
-  DISPLAY_PHONE: "(16) 99430-8140",
+  DISPLAY_PHONE: "(16) 99649-0503",
   DEFAULT_MESSAGE: `Olá! Quero saber mais sobre o seu sistema de agenda ${SITE_CONFIG.BRAND_NAME}`,
   /**
    * Gera o link direto para o WhatsApp com o número e mensagem configurados.
