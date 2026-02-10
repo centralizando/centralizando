@@ -1,4 +1,3 @@
-
 export const SITE_CONFIG = {
   TITLE: "CENTRALIZANDO - Gestão de Elite para Barbeiros",
   BRAND_NAME: "CENTRALIZANDO",
@@ -6,9 +5,9 @@ export const SITE_CONFIG = {
 };
 
 export const CONFIG_VIDEOS = {
-  // Substitua os IDs após 'embed/' pelos IDs reais dos seus vídeos do YouTube
-  CLIENT_PAGE: "https://www.youtube.com/watch?v=fdFWSbTOfAQ",
-  BARBER_PAGE: "https://www.youtube.com/watch?v=ReDSINTsjmU"
+  // URLs do Vimeo conforme solicitado
+  CLIENT_PAGE: "https://player.vimeo.com/video/1163782276?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479",
+  BARBER_PAGE: "https://player.vimeo.com/video/1163785200?badge=0&autopause=0&player_id=0&app_id=58479"
 };
 
 /**

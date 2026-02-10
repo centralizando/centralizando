@@ -196,19 +196,19 @@ const App: React.FC = () => {
       <section className="py-16 md:py-32 bg-[#0a0a0a]">
         <div className="container mx-auto px-6">
           <div className="bg-gradient-to-br from-[#111] to-[#050505] p-8 md:p-20 rounded-[3rem] border border-white/5 text-center relative overflow-hidden">
-            <h3 className="text-4xl md:text-8xl font-title mb-8 italic text-white uppercase leading-none">SAIA DO <span className="text-amber-500">BÁSICO</span></h3>
+            <h3 className="text-4xl md:text-8xl font-title mb-8 italic text-white uppercase leading-none">SAIA DO BÁSICO</h3>
             <p className="text-gray-400 text-lg md:text-2xl mb-12 max-w-xl mx-auto font-light leading-relaxed italic">
-              Pare de perder tempo com agendas que não te trazem lucro. O <strong>{SITE_CONFIG.BRAND_NAME}</strong> é a ferramenta para quem quer dominar o mercado local.
+              Pare de perder tempo com agendas que não te trazem lucro. O {SITE_CONFIG.BRAND_NAME} é a ferramenta para quem quer dominar o mercado local.
             </p>
             
             <a 
               href={waLink}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex w-full md:w-auto items-center justify-center gap-3 bg-amber-500 text-black px-12 py-6 md:px-20 md:py-9 rounded-[2rem] font-black text-2xl md:text-4xl hover:scale-105 transition-all shadow-[0_20px_50px_rgba(245,158,11,0.2)] uppercase italic"
+              className="inline-flex w-full md:w-auto items-center justify-center gap-3 bg-[#25D366] text-black px-12 py-6 md:px-20 md:py-9 rounded-[2rem] font-black text-2xl md:text-4xl hover:scale-105 transition-all shadow-[0_20px_50px_rgba(37,211,102,0.3)] uppercase italic"
             >
-              <MessageSquare className="w-8 h-8 md:w-12 md:h-12" />
-              Chamar no Zap
+              <MessageCircle className="w-8 h-8 md:w-12 md:h-12 fill-black" />
+              Chama no Zap
             </a>
           </div>
         </div>

@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Play } from 'lucide-react';
 
@@ -16,8 +15,9 @@ const VideoPlayer: React.FC<VideoPlayerProps> = ({ url, title }) => {
           src={url}
           title={title}
           frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
           allowFullScreen
+          referrerPolicy="strict-origin-when-cross-origin"
         ></iframe>
       </div>
       <div className="mt-4 flex items-center gap-2 text-gray-500 text-[10px] uppercase tracking-[0.2em] font-bold px-2">

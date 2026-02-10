@@ -10,8 +10,6 @@ interface NavbarProps {
 }
 
 const Navbar: React.FC<NavbarProps> = ({ onDemoClick, onHomeClick, currentView }) => {
-  const waLink = CONTACT_INFO.WhatsAppLink;
-
   return (
     <nav className="fixed w-full z-50 bg-black/90 backdrop-blur-md border-b border-white/5">
       <div className="container mx-auto px-4 h-16 md:h-20 flex items-center justify-between">
@@ -30,14 +28,12 @@ const Navbar: React.FC<NavbarProps> = ({ onDemoClick, onHomeClick, currentView }
           <button onClick={onDemoClick} className={`transition-colors ${currentView === 'demo' ? 'text-amber-500' : 'hover:text-amber-500'}`}>Demonstração</button>
         </div>
 
-        <a 
-          href={waLink}
-          target="_blank"
-          rel="noopener noreferrer"
+        <button 
+          onClick={onDemoClick}
           className="bg-white text-black px-5 py-2.5 md:px-8 md:py-3.5 rounded-xl font-black text-[10px] md:text-xs uppercase tracking-widest hover:bg-amber-500 transition-all shadow-lg active:scale-95"
         >
-          WHATSAPP
-        </a>
+          COMO FUNCIONA?
+        </button>
       </div>
     </nav>
   );
