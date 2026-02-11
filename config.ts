@@ -14,7 +14,7 @@ export const CONFIG_VIDEOS = {
  * CONFIGURAÇÃO DE CONTATO CENTRALIZADA
  * Altere apenas o valor da constante PHONE para atualizar o sistema inteiro.
  */
-const PHONE = "5517996490503";
+const PHONE = "5516996490503";
 
 export const CONTACT_INFO = {
   PHONE_NUMBER: PHONE,
